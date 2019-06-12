@@ -1,0 +1,18 @@
+{
+  "files": ["ruby_task_helper/files/task_helper.rb"],
+  "input_method": "stdin",
+  "parameters": {
+    "fact_json": {
+      "description": "The facts for this node",
+      "type": "Hash"
+    },
+    "puppetdb_server": {
+      "description": "The hostname of the PuppetDB to submit facts_json to",
+      "type": "String[1]"
+    },
+    "puppetdb_port": {
+      "description": "The port that PuppetDB is listening on",
+      "type": "Optional[Integer]"
+    }
+  }
+}
